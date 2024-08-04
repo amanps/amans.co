@@ -8,17 +8,17 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://amans.co'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Aman Singh',
+    template: '%s | Aman Singh',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Software engineer and AI practitioner.',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: 'Aman Singh',
+    description: 'Software engineer and AI practitioner.',
+    url: 'https://amans.co',
+    siteName: 'Aman Singh',
     locale: 'en_US',
     type: 'website',
   },
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Aman Singh',
     card: 'summary_large_image',
   },
-  verification: {
-    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
-    yandex: '14d2e73487fa6c71',
-  },
+  // verification: {
+  //   google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
+  //   yandex: '14d2e73487fa6c71',
+  // },
 };
 
 const cx = (...classes) => classes.filter(Boolean).join(' ');
@@ -56,7 +56,7 @@ export default function RootLayout({
       className={cx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
         GeistSans.variable,
-        GeistMono.variable
+        GeistMono.variable,
       )}
     >
       <head>
