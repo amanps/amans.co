@@ -66,6 +66,5 @@ const deleteFolderRecursive = async (path) => {
   await deleteFolderRecursive(imagesDir);
   await fs.mkdir(contentDir);
   await fs.writeFile(path.join(contentDir, 'hello-world.mdx'), template);
-  await fs.writeFile(path.join(appDir, 'page.tsx'), homePage);
   await fs.writeFile(path.join(workDir, 'page.tsx'), workPage);
 })();
