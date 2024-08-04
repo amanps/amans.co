@@ -136,13 +136,22 @@ export default function Page() {
     <section>
       <PreloadResources />
       <h1 className="mb-8 text-2xl font-medium tracking-tighter">
-        hey, I'm aman 👋
+        hi, I'm aman 👋
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
+        <p>{`I'm a software engineer based in New York City.`}</p>
+      </div>
+      <div className="prose prose-neutral dark:prose-invert">
+        {`I work on AI at `}
+        <Link href="https://www.stripe.com">Stripe</Link>
+        {`, currently focussed on deploying LLMs to harvest useful information from the web to improve Stripe's products and fraud models.`}
+      </div>
+      <div className="prose prose-neutral dark:prose-invert">
         <p>
-          {`I work on AI at `}
-          <Link href="https://www.stripe.com">Stripe</Link>
-          {`, based in New York City.`}
+          Previously, I helped build <Link href="https://www.link.com">Link</Link>{' '}
+          (Stripe's one-click checkout product), and{' '}
+          <Link href="https://www.stripe.com/radar">Radar</Link>, our ML-based
+          fraud protection system.
         </p>
       </div>
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
