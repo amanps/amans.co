@@ -33,13 +33,14 @@ const JsonViewer: React.FC = () => {
           value={leftInput}
           onChange={(e) => setLeftInput(e.target.value)}
           placeholder="Paste your JSON here..."
+          style={{ outline: 'none' }}
         />
         <textarea
           className="flex-1 p-4 resize-none font-mono text-sm bg-white dark:bg-gray-800"
           value={error ? error : rightInput}
           onChange={(e) => setRightInput(e.target.value)}
-          placeholder="Formatted JSON will appear here..."
-          style={{ color: error ? 'red' : 'inherit' }}
+          placeholder="Formatted JSON will appear here."
+          style={{ color: error ? 'red' : 'inherit', outline: 'none' }}
         />
       </div>
     </div>
