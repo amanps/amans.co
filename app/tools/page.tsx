@@ -6,7 +6,7 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <p>{`A collection of micro-tools I need on the regular. Instead of visiting websites riddled with ads, I had AI develop them for me.`}</p>
       </div>
-      <BlogLink name="JSON Formatter" slug="pretty-json" />
+      <BlogLink name="JSON Formatter" slug="json-formatter" />
     </div>
   );
 }

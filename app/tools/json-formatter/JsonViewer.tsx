@@ -24,8 +24,8 @@ const JsonViewer: React.FC = () => {
 
   return (
     <div className="w-full h-full flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-      <h1 className="text-lg font-semibold p-4 bg-gray-50 dark:bg-gray-700 text-center">
-        Pretty JSON Formatter
+      <h1 className="text-lg text-left font-semibold p-4 bg-gray-50 dark:bg-gray-700">
+        JSON Formatter
       </h1>
       <div className="flex-grow flex">
         <textarea
