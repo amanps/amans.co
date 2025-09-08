@@ -121,7 +121,7 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         {`I work on AI at `}
         <Link href="https://www.stripe.com">Stripe</Link>
-        {`, currently focussed on deploying LLMs to harvest useful information from the web to improve Stripe's products and fraud models.`}
+        {`, currently focused on deploying LLMs to harvest useful information from the web to improve Stripe's products and fraud models.`}
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
