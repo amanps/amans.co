@@ -119,7 +119,7 @@ export default function Page() {
         <p>{`I'm a software engineer based in New York City.`}</p>
       </div>
       <div className="prose prose-neutral dark:prose-invert">
-        {`I'm an AI engineer at `}
+        {`I work on Applied AI at `}
         <Link href="https://www.stripe.com">Stripe</Link>
         {`. I helped establish Stripe’s AI agent framework that powers all agents company-wide, and shipped agents that research the web, operate browsers through checkout flows, and auto-assemble evidence to win disputes.`}
       </div>
