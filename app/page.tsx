@@ -127,7 +127,7 @@ export default function Page() {
         <p>
           {`Previously, I was part of the zero-to-one team that launched Stripe's first consumer product, `}
           <Link href="https://link.com">Link</Link>
-          {`, and helped build `}
+          {`, and worked on `}
           <Link href="https://stripe.com/radar">Radar</Link>
           {`, a fraud prevention product for internet businesses.`}
         </p>
