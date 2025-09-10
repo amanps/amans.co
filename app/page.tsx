@@ -125,7 +125,11 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I've also been part of several zero-to-one initiatives across both Stripe's merchant products (Radar) and consumer products (Link.com).
+          {`Previously, I was part of the zero-to-one team that launched Stripe's first consumer product, `}
+          <Link href="https://link.com">Link</Link>
+          {`, and helped build `}
+          <Link href="https://stripe.com/radar">Radar</Link>
+          {`, a fraud prevention product for internet businesses.`}
         </p>
       </div>
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
